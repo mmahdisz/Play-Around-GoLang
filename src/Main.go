@@ -94,5 +94,27 @@ func main() {
 	//for k, v := range expertise {
 	//	fmt.Println(k, v)
 	//}
+	//
+	//defer println("start")
+	//defer println("middle")
+	//defer println("end")
+	//
+	//res, err := http.Get("http://www.google.com/robots.txt")
+	//defer res.Body.Close()
+	//if err != nil {
+	//	log.Fatal(err)
+	//}
+	//
+	//robots, err := ioutil.ReadAll(res.Body)
+	//if err != nil {
+	//	log.Fatal(err)
+	//}
+	//println("%s", robots)
+	//
+	//var a int = 42
+	//var b *int = &a
+	//println(a, &a, *b, b)
+	//a = 72
+	//println(a, &a, *b, b)
 
 }
